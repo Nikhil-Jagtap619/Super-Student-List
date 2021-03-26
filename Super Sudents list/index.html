@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+         <div class="data">
+    <h1>Super Students</h1>
+    <div class="search">
+      <input placeholder="search by super power" id="searchbar" onkeyup="searchBySuperPower()"/>
+    </div>
+    <table border="1" class="table" cellspacing="0" cellpadding="7">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>SuperID</th>
+          <th>Profession</th>
+          <th>Super Powers</th>
+        </tr>
+      </thead>
+      <tbody id="body">
+        
+      </tbody>
+    </table>
+    <div class="form-container">
+      <h2>Join the list of Super Students</h2>
+      <div class="flex">
+        <img src="https://i.gifer.com/7V9.gif"/>
+        <label for="name">Name: <label>
+        <input id="name" class="form" />
+          <label for="superId">SuperID: <label>
+        <input id="superId" class="form" />
+            <label for="profess">Profession: <label>
+        <input id="profess"  class="form"/>
+              <label for="superPow">Super Powers: <label>
+        <input id="superPow" class="form" />
+                <button onclick="addStudents()" type="submit">Join</button>
+                </div>
+      
+    </div>
+  </div>
+              <footer>
+                <hr>
+                <p>Copyright &#169; 2021</p>
+              </footer>
+        <script src="index.js"></script>
+    </body>
+</html>
